@@ -19,19 +19,19 @@
   },
   "minor": {
     "automerge": true,
-    "groupName": "Minor updates"
+    "groupName": "Minor"
   },
   "patch": {
     "automerge": true,
-    "groupName": "Patch updates"
+    "groupName": "Patch"
   },
   "pin": {
     "automerge": true,
-    "groupName": "Pin updates"
+    "groupName": "Pin"
   },
   "digest": {
     "automerge": true,
-    "groupName": "Digest updates"
+    "groupName": "Digest"
   },
   "node": {
     "supportPolicy": ["lts_latest"]

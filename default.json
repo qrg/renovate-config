@@ -15,7 +15,8 @@
   },
   "rangeStrategy": "bump",
   "major": {
-    "automerge": false
+    "automerge": false,
+    "groupName": "Major"
   },
   "minor": {
     "automerge": true,

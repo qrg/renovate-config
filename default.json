@@ -27,11 +27,11 @@
     "groupName": "Patch"
   },
   "pin": {
-    "automerge": true,
+    "automerge": false,
     "groupName": "Pin"
   },
   "digest": {
-    "automerge": true,
+    "automerge": false,
     "groupName": "Digest"
   },
   "node": {

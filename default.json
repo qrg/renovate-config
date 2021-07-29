@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": ["config:base", "group:recommended"],
   "timezone": "Asia/Tokyo",
   "schedule": ["before 4pm"],
   "labels": ["dependencies"],
@@ -15,24 +15,19 @@
   },
   "rangeStrategy": "bump",
   "major": {
-    "automerge": false,
-    "groupName": "Major"
+    "automerge": false
   },
   "minor": {
-    "automerge": true,
-    "groupName": "Minor"
+    "automerge": true
   },
   "patch": {
-    "automerge": true,
-    "groupName": "Patch"
+    "automerge": true
   },
   "pin": {
-    "automerge": false,
-    "groupName": "Pin"
+    "automerge": false
   },
   "digest": {
-    "automerge": false,
-    "groupName": "Digest"
+    "automerge": false
   },
   "node": {
     "supportPolicy": ["lts_latest"]
